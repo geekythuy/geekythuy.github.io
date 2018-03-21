@@ -1,0 +1,10 @@
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe.config
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.pdb
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.WatcherService.resources
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.csproj.GenerateResource.cache
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.csproj.CoreCompileInputs.cache
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.exe
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.pdb
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.ProjectInstaller.resources
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.csprojResolveAssemblyReference.cache

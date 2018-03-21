@@ -1,0 +1,89 @@
+﻿Installing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly.
+Committing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Installing service WatcherService...
+Service WatcherService has been successfully installed.
+Creating EventLog source WatcherService in log Application...
+Committing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Uninstalling assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Removing EventLog source WatcherService.
+Service WatcherService is being removed from the system...
+Service WatcherService was successfully removed from the system.
+Installing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Installing service WatcherService...
+Service WatcherService has been successfully installed.
+Creating EventLog source WatcherService in log Application...
+Committing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Uninstalling assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Removing EventLog source WatcherService.
+Service WatcherService is being removed from the system...
+Service WatcherService was successfully removed from the system.
+Installing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Installing service WatcherService...
+Service WatcherService has been successfully installed.
+Creating EventLog source WatcherService in log Application...
+Committing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Uninstalling assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Removing EventLog source WatcherService.
+Service WatcherService is being removed from the system...
+Service WatcherService was successfully removed from the system.
+Installing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
+Installing service WatcherService...
+Service WatcherService has been successfully installed.
+Creating EventLog source WatcherService in log Application...
+Committing assembly 'C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog
+   assemblypath = C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe
