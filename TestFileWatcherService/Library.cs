@@ -163,31 +163,35 @@ namespace TestFileWatcherService
                     sftpClient.Connect();
                     if (sftpClient.IsConnected)
                     {
-                        Console.WriteLine("Successfully connected to Elementum SFTP Server");
+                        WriteErrorLog("Successfully connected to Elementum SFTP Server");
 
 
                         sftpClient.ChangeDirectory(changeDirectory);
                        string currentDir = sftpClient.WorkingDirectory.ToString();
-                        string uploadfilePath = @"C:\Users\admin-tt\Documents\elementum\testUploadFile.txt";
-                        
-                        Console.WriteLine("Upload File Path  is: {0}", uploadfilePath);
+                        WriteErrorLog("Upload Path is: ");
+                        WriteErrorLog( uploadfilePath);
 
                         foreach (string uploadFileName in Directory.GetFiles(uploadfilePath, "*.txt", SearchOption.TopDirectoryOnly))
                         {
                             string destinationPath = currentDir + @"/" + Path.GetFileName(uploadFileName);
-                            Console.WriteLine("Destination Path is: {0}", destinationPath);
+                           // Console.WriteLine("Destination Path is: {0}", destinationPath);
+                            WriteErrorLog("Destination Path is: ");
+                            WriteErrorLog(destinationPath);
                             //delete any duplicate file in remote server
                             if (sftpClient.Exists(destinationPath))
                             {
                                 sftpClient.DeleteFile(destinationPath);
+                                WriteErrorLog("Deleted duplicate file on SFTP server");
                             }
 
                             using (FileStream uplFileStream = new FileStream(uploadFileName, FileMode.Open))
                             {
+                                WriteErrorLog("Streaming file");
+                                WriteErrorLog(uploadFileName);
                                 if (uplFileStream != null)
                                 {
                                     sftpClient.UploadFile(uplFileStream, destinationPath, null);
-                                   
+                                    WriteErrorLog("successfully uploaded file to SFTP server");
                                 }
 
                             }//end using FileStream
@@ -196,16 +200,17 @@ namespace TestFileWatcherService
 
                         //Closing connection with SFTP
                         sftpClient.Disconnect();
+                        WriteErrorLog("successfully disconnected from SFTP server");
                         //cleanup any lingering connection issues
-                      sftpClient.Dispose();
-                      
+                        sftpClient.Dispose();
+                        WriteErrorLog("successfully disposed any lingering issue");
                     }//end if SFTP client is connected
 
                 }//end using SFTPClient
             }
             catch (Exception exc)
             {
-                Console.WriteLine(exc.Message);
+                WriteErrorLog(exc.Message);
             }
         }//end method
     }

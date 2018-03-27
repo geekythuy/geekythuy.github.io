@@ -37,6 +37,8 @@ namespace TestFileWatcherService
 
         private void Watcher_Deleted(object sender, FileSystemEventArgs e)
         {
+            Library.WriteErrorLog(e.FullPath);
+            Library.WriteErrorLog(" was successfully deleted");
             try
             {
                 Library.UploadFileSFTP();
