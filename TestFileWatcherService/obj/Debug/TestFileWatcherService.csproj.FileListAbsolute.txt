@@ -7,4 +7,7 @@ C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj
 C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.exe
 C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.pdb
 C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.ProjectInstaller.resources
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\Renci.SshNet.dll
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\Renci.SshNet.xml
+C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.csproj.CopyComplete
 C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\obj\Debug\TestFileWatcherService.csprojResolveAssemblyReference.cache

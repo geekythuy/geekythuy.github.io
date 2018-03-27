@@ -5,15 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Configuration;
+using Renci.SshNet;
 
 namespace TestFileWatcherService
 {
     class Library
     {
         static string folderPathToRead = ConfigurationManager.AppSettings["folderPathToRead"];
-
         static string folderPathToWrite = ConfigurationManager.AppSettings["folderPathToWrite"];
         static string movedFiles = ConfigurationManager.AppSettings["movedFiles"];
+        static string hostName = ConfigurationManager.AppSettings["hostName"];
+        static string userName = ConfigurationManager.AppSettings["userName"];
+        static string uploadfilePath = ConfigurationManager.AppSettings["uploadfilePath"];
+        static string OpenSSHKey = ConfigurationManager.AppSettings["OpenSSHKey"];
+        static string changeDirectory = ConfigurationManager.AppSettings["changeDirectory"];
 
         public static void WriteErrorLog(Exception ex)
         {
@@ -118,12 +123,91 @@ namespace TestFileWatcherService
             //Move Original Files after writing files
             foreach(string inputFileName in Directory.GetFiles(folderPathToRead, "*.txt"))
             {
+                string dupFile = Path.Combine(movedFiles, inputFileName);
+                Console.WriteLine(dupFile);
+                //check for duplicate file and delete the duplicate first
+                if (File.Exists(dupFile))
+                {
+                    File.Delete(dupFile);
+                }
                 File.Move(inputFileName, movedFiles + @"\" + Path.GetFileName(inputFileName));
             }
                 
         }
 
 
+        public static void UploadFileSFTP()
+        {
+            // Setup Credentials and Server Information
+            ConnectionInfo ConnNfo = new ConnectionInfo(hostName, 22, userName,
+                new AuthenticationMethod[]{
+
+                // Pasword based Authentication
+               // new PasswordAuthenticationMethod("username","password"),
+
+                // Key Based Authentication (using keys in OpenSSH Format)
+                new PrivateKeyAuthenticationMethod(userName,new PrivateKeyFile[]{
+                    new PrivateKeyFile(OpenSSHKey)
+                }),
+                }
+            );
+
+
+            //start connecting to SFTP Client and upload files
+            try
+            {
+                // Execute a (SHELL) Command - prepare upload directory
+                using (var sftpClient = new SftpClient(ConnNfo))
+                {
+
+                    sftpClient.Connect();
+                    if (sftpClient.IsConnected)
+                    {
+                        Console.WriteLine("Successfully connected to Elementum SFTP Server");
+
+
+                        sftpClient.ChangeDirectory(changeDirectory);
+                       string currentDir = sftpClient.WorkingDirectory.ToString();
+                        string uploadfilePath = @"C:\Users\admin-tt\Documents\elementum\testUploadFile.txt";
+                        
+                        Console.WriteLine("Upload File Path  is: {0}", uploadfilePath);
+
+                        foreach (string uploadFileName in Directory.GetFiles(uploadfilePath, "*.txt", SearchOption.TopDirectoryOnly))
+                        {
+                            string destinationPath = currentDir + @"/" + Path.GetFileName(uploadFileName);
+                            Console.WriteLine("Destination Path is: {0}", destinationPath);
+                            //delete any duplicate file in remote server
+                            if (sftpClient.Exists(destinationPath))
+                            {
+                                sftpClient.DeleteFile(destinationPath);
+                            }
+
+                            using (FileStream uplFileStream = new FileStream(uploadFileName, FileMode.Open))
+                            {
+                                if (uplFileStream != null)
+                                {
+                                    sftpClient.UploadFile(uplFileStream, destinationPath, null);
+                                   
+                                }
+
+                            }//end using FileStream
+
+                        }//end foreach 
+
+                        //Closing connection with SFTP
+                        sftpClient.Disconnect();
+                        //cleanup any lingering connection issues
+                      sftpClient.Dispose();
+                      
+                    }//end if SFTP client is connected
+
+                }//end using SFTPClient
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine(exc.Message);
+            }
+        }//end method
     }
 }
 

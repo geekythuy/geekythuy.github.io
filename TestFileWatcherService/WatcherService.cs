@@ -31,11 +31,32 @@ namespace TestFileWatcherService
             watcher.IncludeSubdirectories = true;
             watcher.Created += Watcher_Created;
             watcher.Changed += Watcher_Changed;
+            watcher.Deleted += Watcher_Deleted;
             
+        }
+
+        private void Watcher_Deleted(object sender, FileSystemEventArgs e)
+        {
+            try
+            {
+                Library.UploadFileSFTP();
+            }
+           catch(Exception ex)
+            {
+                Library.WriteErrorLog(ex);
+            }
+
         }
 
         private void Watcher_Changed(object sender, FileSystemEventArgs e)
         {
+            Library.WriteErrorLog("File was successfully changed");
+        }
+
+        private void Watcher_Created(object sender, FileSystemEventArgs e)
+        {
+            Library.WriteErrorLog(e.FullPath);
+            Library.WriteErrorLog("was successfully created");
             try
             {
                 Library.UTF8Conversion();
@@ -45,11 +66,6 @@ namespace TestFileWatcherService
             {
                 Library.WriteErrorLog(ex);
             }
-        }
-
-        private void Watcher_Created(object sender, FileSystemEventArgs e)
-        {
-            Library.WriteErrorLog("File was successfull created");
         }
 
         protected override void OnStop()

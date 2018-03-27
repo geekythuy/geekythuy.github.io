@@ -89,3 +89,126 @@ The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\Tes
 The Commit phase completed successfully.
 
 The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service already exists
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service already exists
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.exe assembly's progress.
+The file is located at C:\Users\admin-tt\source\repos\TestFileWatcherService\TestFileWatcherService\bin\Debug\TestFileWatcherService.InstallLog.
+
+The uninstall has completed.
