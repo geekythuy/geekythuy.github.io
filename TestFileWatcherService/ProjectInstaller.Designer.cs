@@ -40,7 +40,7 @@
             // serviceInstaller1
             // 
             this.serviceInstaller1.Description = "test File Watcher";
-            this.serviceInstaller1.DisplayName = "TestFileWatcherSvc";
+            this.serviceInstaller1.DisplayName = "FileWatcherSvc";
             this.serviceInstaller1.ServiceName = "WatcherService";
             // 
             // ProjectInstaller

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Configuration;
 using Renci.SshNet;
+using System.Diagnostics;
 
 namespace TestFileWatcherService
 {
@@ -16,9 +17,11 @@ namespace TestFileWatcherService
         static string movedFiles = ConfigurationManager.AppSettings["movedFiles"];
         static string hostName = ConfigurationManager.AppSettings["hostName"];
         static string userName = ConfigurationManager.AppSettings["userName"];
-        static string uploadfilePath = ConfigurationManager.AppSettings["uploadfilePath"];
+        static string uploadSourceDir = ConfigurationManager.AppSettings["uploadSourceDir"];
         static string OpenSSHKey = ConfigurationManager.AppSettings["OpenSSHKey"];
-        static string changeDirectory = ConfigurationManager.AppSettings["changeDirectory"];
+        static string InventoryDir = ConfigurationManager.AppSettings["InventoryDir"];
+        static string ManufactureDir = ConfigurationManager.AppSettings["ManufactureDir"];
+        static string TransportDir = ConfigurationManager.AppSettings["TransportDir"];
 
         public static void WriteErrorLog(Exception ex)
         {
@@ -74,18 +77,17 @@ namespace TestFileWatcherService
 
 
 
-        public static void UTF8Conversion()
+        public static void UTF8Conversion(string inputFilePath)
         {
             
             //read and write file from Elementum folder
 
 
-            foreach (string inputFileName in Directory.GetFiles(folderPathToRead, "*.txt"))
-            {
-                string outputFile = folderPathToWrite + @"\"+ Path.GetFileName(inputFileName);
+           // foreach (string inputFileName in Directory.GetFiles(folderPathToRead, "*.txt"))
+          //  {
+                string outputFile = folderPathToWrite + @"\"+ Path.GetFileName(inputFilePath);
                 
-                //   string outputFile = Directory.GetFiles(outputFilePth).ToString();
-                using (StreamReader reader = new StreamReader(inputFileName))
+                using (StreamReader reader = new StreamReader(inputFilePath))
                 {
                     using (StreamWriter writer = new StreamWriter(outputFile, false, Encoding.UTF8))
                     {
@@ -109,34 +111,36 @@ namespace TestFileWatcherService
                         //log the success message 
                         using (StreamWriter writer2 = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\SuccessMessages.txt", true))
                         {
-                            writer2.WriteLine("File" + inputFileName + "  has been successfully converted to UTF-8");
+                            writer2.WriteLine("File" + inputFilePath + "  has been successfully converted to UTF-8");
                         }
                     } 
 
 
                 }
-            } //close foreach file in Directory
+            //close foreach file in Directory  } 
         }// close method UTF8Conversion
 
-        public static void cleanDirectory()
+
+        //Move Original Files after writing files
+        public static void cleanDirectory(string inputFilePath)
         {
-            //Move Original Files after writing files
-            foreach(string inputFileName in Directory.GetFiles(folderPathToRead, "*.txt"))
-            {
-                string dupFile = Path.Combine(movedFiles, inputFileName);
+            
+          //  foreach(string inputFileName in Directory.GetFiles(folderPathToRead, "*.txt"))
+          //  {
+                string dupFile = Path.Combine(movedFiles, Path.GetFileName(inputFilePath));
                 Console.WriteLine(dupFile);
                 //check for duplicate file and delete the duplicate first
                 if (File.Exists(dupFile))
                 {
                     File.Delete(dupFile);
                 }
-                File.Move(inputFileName, movedFiles + @"\" + Path.GetFileName(inputFileName));
-            }
+                File.Move(inputFilePath, movedFiles + @"\" + Path.GetFileName(inputFilePath));
+            //}
                 
         }
 
 
-        public static void UploadFileSFTP()
+        public static void UploadFileSFTP(string inputFilePath)
         {
             // Setup Credentials and Server Information
             ConnectionInfo ConnNfo = new ConnectionInfo(hostName, 22, userName,
@@ -159,35 +163,44 @@ namespace TestFileWatcherService
                 // Execute a (SHELL) Command - prepare upload directory
                 using (var sftpClient = new SftpClient(ConnNfo))
                 {
-
                     sftpClient.Connect();
                     if (sftpClient.IsConnected)
                     {
                         WriteErrorLog("Successfully connected to Elementum SFTP Server");
+                        
+                        WriteErrorLog("Upload File Path is: " + folderPathToWrite + @"\" + Path.GetFileName(inputFilePath));
 
 
-                        sftpClient.ChangeDirectory(changeDirectory);
-                       string currentDir = sftpClient.WorkingDirectory.ToString();
-                        WriteErrorLog("Upload Path is: ");
-                        WriteErrorLog( uploadfilePath);
-
-                        foreach (string uploadFileName in Directory.GetFiles(uploadfilePath, "*.txt", SearchOption.TopDirectoryOnly))
+                        // foreach (string uploadFileName in Directory.GetFiles(uploadfilePath, "*.txt", SearchOption.TopDirectoryOnly))
+                        //  {
+                        if (Path.GetFileName(inputFilePath).Contains("Inventory"))
                         {
-                            string destinationPath = currentDir + @"/" + Path.GetFileName(uploadFileName);
-                           // Console.WriteLine("Destination Path is: {0}", destinationPath);
-                            WriteErrorLog("Destination Path is: ");
-                            WriteErrorLog(destinationPath);
+                            sftpClient.ChangeDirectory(InventoryDir);
+                        }
+                        else if (Path.GetFileName(inputFilePath).Contains("ASN"))
+                        {
+                            sftpClient.ChangeDirectory(TransportDir);
+                        }
+                        else
+                        {
+                            sftpClient.ChangeDirectory(ManufactureDir);
+                        }
+
+                        string currentDir = sftpClient.WorkingDirectory.ToString();
+                            string destinationPath = currentDir + @"/" + Path.GetFileName(inputFilePath);
+                            WriteErrorLog("Destination Path is: " + destinationPath);
+                            
                             //delete any duplicate file in remote server
                             if (sftpClient.Exists(destinationPath))
                             {
                                 sftpClient.DeleteFile(destinationPath);
                                 WriteErrorLog("Deleted duplicate file on SFTP server");
                             }
-
-                            using (FileStream uplFileStream = new FileStream(uploadFileName, FileMode.Open))
+                            //start filestreaming for uploading
+                            using (FileStream uplFileStream = new FileStream(folderPathToWrite + @"\" + Path.GetFileName(inputFilePath), FileMode.Open))
                             {
-                                WriteErrorLog("Streaming file");
-                                WriteErrorLog(uploadFileName);
+                                WriteErrorLog("Streaming file"+ " " + folderPathToWrite + @"\" + Path.GetFileName(inputFilePath));
+                               
                                 if (uplFileStream != null)
                                 {
                                     sftpClient.UploadFile(uplFileStream, destinationPath, null);
@@ -196,10 +209,10 @@ namespace TestFileWatcherService
 
                             }//end using FileStream
 
-                        }//end foreach 
+                            //end foreach    }
 
-                        //Closing connection with SFTP
-                        sftpClient.Disconnect();
+                            //Closing connection with SFTP
+                            sftpClient.Disconnect();
                         WriteErrorLog("successfully disconnected from SFTP server");
                         //cleanup any lingering connection issues
                         sftpClient.Dispose();
@@ -213,6 +226,22 @@ namespace TestFileWatcherService
                 WriteErrorLog(exc.Message);
             }
         }//end method
+
+        //write eventLogEntry
+        public static void writeEventLogError(string sSource, string sEvent)
+        {
+            // Check if the event source exists. If not create it.
+            if (!EventLog.SourceExists(sSource))
+            {
+                EventLog.CreateEventSource(sSource, "Application");
+                EventLog.WriteEntry(sSource, sEvent, EventLogEntryType.Error, 10);
+            }
+            else
+            {
+                EventLog.WriteEntry(sSource, sEvent, EventLogEntryType.Error, 10);
+            }
+        }// end method
+
     }
 }
 

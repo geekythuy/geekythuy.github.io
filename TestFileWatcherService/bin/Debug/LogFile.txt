@@ -1,0 +1,241 @@
+3/27/2018 5:04:20 PM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+3/27/2018 5:04:20 PM :was successfully created
+3/27/2018 5:04:20 PM :mscorlib ;Could not find file 'C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt'.
+3/27/2018 5:04:20 PM :File was successfully changed
+3/27/2018 5:04:20 PM :File was successfully changed
+3/27/2018 5:04:20 PM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+3/27/2018 5:04:20 PM : was successfully deleted
+3/27/2018 5:04:21 PM :Successfully connected to Elementum SFTP Server
+3/27/2018 5:04:21 PM :Upload Path is: 
+3/27/2018 5:04:21 PM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+3/27/2018 5:04:21 PM :Destination Path is: 
+3/27/2018 5:04:21 PM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+3/27/2018 5:04:21 PM :Streaming file
+3/27/2018 5:04:21 PM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+3/27/2018 5:04:21 PM :successfully uploaded file to SFTP server
+3/27/2018 5:04:22 PM :successfully disconnected from SFTP server
+3/27/2018 5:04:22 PM :successfully disposed any lingering issue
+3/29/2018 8:12:39 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+3/29/2018 8:12:39 AM : was successfully deleted
+3/29/2018 8:12:40 AM :Successfully connected to Elementum SFTP Server
+3/29/2018 8:12:40 AM :Upload Path is: 
+3/29/2018 8:12:40 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+3/29/2018 8:12:40 AM :successfully disconnected from SFTP server
+3/29/2018 8:12:40 AM :successfully disposed any lingering issue
+3/29/2018 8:12:48 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+3/29/2018 8:12:48 AM :was successfully created
+3/29/2018 8:12:48 AM :mscorlib ;Could not find file 'C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt'.
+3/29/2018 8:12:48 AM :File was successfully changed
+3/29/2018 8:12:48 AM :File was successfully changed
+3/29/2018 8:12:48 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+3/29/2018 8:12:48 AM : was successfully deleted
+3/29/2018 8:12:49 AM :Successfully connected to Elementum SFTP Server
+3/29/2018 8:12:49 AM :Upload Path is: 
+3/29/2018 8:12:49 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+3/29/2018 8:12:49 AM :Destination Path is: 
+3/29/2018 8:12:49 AM :/manufacture/starbucks/uploads/txt/Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+3/29/2018 8:12:49 AM :Streaming file
+3/29/2018 8:12:49 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+3/29/2018 8:12:49 AM :successfully uploaded file to SFTP server
+3/29/2018 8:12:49 AM :successfully disconnected from SFTP server
+3/29/2018 8:12:49 AM :successfully disposed any lingering issue
+4/2/2018 9:02:22 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/2/2018 9:02:22 AM :was successfully created
+4/2/2018 9:02:22 AM :mscorlib ;Could not find file 'C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt'.
+4/2/2018 9:02:22 AM :File was successfully changed
+4/2/2018 9:02:22 AM :File was successfully changed
+4/2/2018 9:02:22 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/2/2018 9:02:22 AM : was successfully deleted
+4/2/2018 9:02:23 AM :Successfully connected to Elementum SFTP Server
+4/2/2018 9:02:23 AM :Upload Path is: 
+4/2/2018 9:02:23 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/2/2018 9:02:23 AM :Destination Path is: 
+4/2/2018 9:02:23 AM :/manufacture/starbucks/uploads/txt/Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/2/2018 9:02:24 AM :Deleted duplicate file on SFTP server
+4/2/2018 9:02:24 AM :Streaming file
+4/2/2018 9:02:24 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/2/2018 9:02:24 AM :successfully uploaded file to SFTP server
+4/2/2018 9:02:24 AM :successfully disconnected from SFTP server
+4/2/2018 9:02:24 AM :successfully disposed any lingering issue
+4/3/2018 10:09:48 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:09:48 AM :was successfully created
+4/3/2018 10:09:48 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt' because it is being used by another process.
+4/3/2018 10:09:48 AM :File was successfully changed
+4/3/2018 10:09:48 AM :File was successfully changed
+4/3/2018 10:09:48 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:09:48 AM : was successfully deleted
+4/3/2018 10:09:48 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:09:48 AM :Upload Path is: 
+4/3/2018 10:09:48 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:09:49 AM :Destination Path is: 
+4/3/2018 10:09:49 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:09:49 AM :Streaming file
+4/3/2018 10:09:49 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:09:49 AM :successfully uploaded file to SFTP server
+4/3/2018 10:09:49 AM :No such file
+4/3/2018 10:11:55 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:11:55 AM :was successfully created
+4/3/2018 10:11:55 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt' because it is being used by another process.
+4/3/2018 10:11:55 AM :File was successfully changed
+4/3/2018 10:11:55 AM :File was successfully changed
+4/3/2018 10:11:55 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:11:55 AM : was successfully deleted
+4/3/2018 10:11:55 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:11:55 AM :Upload Path is: 
+4/3/2018 10:11:55 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:11:55 AM :Destination Path is: 
+4/3/2018 10:11:55 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:11:56 AM :Deleted duplicate file on SFTP server
+4/3/2018 10:11:56 AM :Streaming file
+4/3/2018 10:11:56 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:11:56 AM :successfully uploaded file to SFTP server
+4/3/2018 10:11:56 AM :No such file
+4/3/2018 10:21:32 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:21:32 AM :was successfully created
+4/3/2018 10:21:32 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt' because it is being used by another process.
+4/3/2018 10:21:32 AM :File was successfully changed
+4/3/2018 10:21:32 AM :File was successfully changed
+4/3/2018 10:25:16 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/3/2018 10:25:16 AM :was successfully created
+4/3/2018 10:25:16 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_Output_20180221_153442.txt' because it is being used by another process.
+4/3/2018 10:25:16 AM :File was successfully changed
+4/3/2018 10:25:16 AM :File was successfully changed
+4/3/2018 10:33:18 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:33:18 AM :was successfully created
+4/3/2018 10:33:18 AM :mscorlib ;Could not find file 'C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt'.
+4/3/2018 10:33:18 AM :File was successfully changed
+4/3/2018 10:33:19 AM :File was successfully changed
+4/3/2018 10:33:19 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:33:19 AM : was successfully deleted
+4/3/2018 10:33:19 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:33:19 AM :Upload Path is: 
+4/3/2018 10:33:19 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:33:19 AM :Destination Path is: 
+4/3/2018 10:33:19 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:33:19 AM :Streaming file
+4/3/2018 10:33:19 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:33:19 AM :successfully uploaded file to SFTP server
+4/3/2018 10:33:19 AM :No such file
+4/3/2018 10:36:00 AM :File was successfully changed
+4/3/2018 10:36:00 AM :File was successfully changed
+4/3/2018 10:36:00 AM :File was successfully changed
+4/3/2018 10:36:35 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:36:35 AM : was successfully deleted
+4/3/2018 10:36:36 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:36:36 AM :Upload Path is: 
+4/3/2018 10:36:36 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:36:36 AM :Destination Path is: 
+4/3/2018 10:36:36 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:36:36 AM :Deleted duplicate file on SFTP server
+4/3/2018 10:36:36 AM :Streaming file
+4/3/2018 10:36:36 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:36:36 AM :successfully uploaded file to SFTP server
+4/3/2018 10:36:36 AM :No such file
+4/3/2018 10:36:36 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/3/2018 10:36:36 AM : was successfully deleted
+4/3/2018 10:36:36 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:36:36 AM :Upload Path is: 
+4/3/2018 10:36:36 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:36:36 AM :Destination Path is: 
+4/3/2018 10:36:36 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:36:36 AM :Deleted duplicate file on SFTP server
+4/3/2018 10:36:36 AM :Streaming file
+4/3/2018 10:36:36 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:36:36 AM :successfully uploaded file to SFTP server
+4/3/2018 10:36:36 AM :No such file
+4/3/2018 10:41:05 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/3/2018 10:41:05 AM :was successfully created
+4/3/2018 10:41:05 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_Output_20180221_153442.txt' because it is being used by another process.
+4/3/2018 10:41:05 AM :File was successfully changed
+4/3/2018 10:41:05 AM :File was successfully changed
+4/3/2018 10:41:05 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_Output_20180221_153442.txt
+4/3/2018 10:41:05 AM : was successfully deleted
+4/3/2018 10:41:05 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:41:05 AM :Upload Path is: 
+4/3/2018 10:41:05 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:41:05 AM :Destination Path is: 
+4/3/2018 10:41:05 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:41:05 AM :Deleted duplicate file on SFTP server
+4/3/2018 10:41:05 AM :Streaming file
+4/3/2018 10:41:05 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:41:05 AM :successfully uploaded file to SFTP server
+4/3/2018 10:41:05 AM :No such file
+4/3/2018 10:44:54 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:44:54 AM :was successfully created
+4/3/2018 10:44:54 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt' because it is being used by another process.
+4/3/2018 10:44:54 AM :File was successfully changed
+4/3/2018 10:44:54 AM :File was successfully changed
+4/3/2018 10:44:54 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:44:54 AM : was successfully deleted
+4/3/2018 10:44:54 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:44:54 AM :Upload Path is: 
+4/3/2018 10:44:54 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:44:54 AM :Destination Path is: 
+4/3/2018 10:44:54 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:44:54 AM :Deleted duplicate file on SFTP server
+4/3/2018 10:44:54 AM :Streaming file
+4/3/2018 10:44:54 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:44:54 AM :successfully uploaded file to SFTP server
+4/3/2018 10:44:54 AM :No such file
+4/3/2018 10:52:40 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:52:40 AM :was successfully created
+4/3/2018 10:52:40 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt' because it is being used by another process.
+4/3/2018 10:52:40 AM :File was successfully changed
+4/3/2018 10:52:40 AM :File was successfully changed
+4/3/2018 10:52:40 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:52:40 AM : was successfully deleted
+4/3/2018 10:52:41 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:52:41 AM :Upload Path is: 
+4/3/2018 10:52:41 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:52:41 AM :Destination Path is: 
+4/3/2018 10:52:41 AM :/transport/starbucks/uploads/txt/Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:52:41 AM :No such file
+4/3/2018 10:54:23 AM :C:\Users\admin-tt\Documents\elementum\Step1\mytest.txt
+4/3/2018 10:54:23 AM :was successfully created
+4/3/2018 10:54:23 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\Step1\mytest.txt' because it is being used by another process.
+4/3/2018 10:54:23 AM :File was successfully changed
+4/3/2018 10:55:15 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:55:15 AM :was successfully created
+4/3/2018 10:55:15 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt' because it is being used by another process.
+4/3/2018 10:55:15 AM :File was successfully changed
+4/3/2018 10:55:15 AM :File was successfully changed
+4/3/2018 10:55:15 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_ASN_20180221_153440.txt
+4/3/2018 10:55:15 AM : was successfully deleted
+4/3/2018 10:55:15 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:55:15 AM :Upload Path is: 
+4/3/2018 10:55:15 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:55:15 AM :Destination Path is: 
+4/3/2018 10:55:15 AM :/manufacture/starbucks/uploads/txt/mytest.txt
+4/3/2018 10:55:15 AM :Streaming file
+4/3/2018 10:55:15 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\mytest.txt
+4/3/2018 10:55:15 AM :successfully uploaded file to SFTP server
+4/3/2018 10:55:15 AM :No such file
+4/3/2018 10:58:40 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:58:40 AM :was successfully created
+4/3/2018 10:58:40 AM :mscorlib ;The process cannot access the file 'C:\Users\admin-tt\Documents\elementum\CopyTarget\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt' because it is being used by another process.
+4/3/2018 10:58:40 AM :File was successfully changed
+4/3/2018 10:58:40 AM :File was successfully changed
+4/3/2018 10:58:40 AM :C:\Users\admin-tt\Documents\elementum\Step1\Starbucks_Cuisinesolutions_BuildPlan_20180221_153441.txt
+4/3/2018 10:58:40 AM : was successfully deleted
+4/3/2018 10:58:41 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 10:58:41 AM :Upload Path is: 
+4/3/2018 10:58:41 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 10:58:41 AM :Destination Path is: 
+4/3/2018 10:58:41 AM :/manufacture/starbucks/uploads/txt/mytest.txt
+4/3/2018 10:58:41 AM :Deleted duplicate file on SFTP server
+4/3/2018 10:58:41 AM :Streaming file
+4/3/2018 10:58:41 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\mytest.txt
+4/3/2018 10:58:41 AM :successfully uploaded file to SFTP server
+4/3/2018 10:58:41 AM :No such file
+4/3/2018 11:39:10 AM :C:\Users\admin-tt\Documents\elementum\Step1\mytest.txt
+4/3/2018 11:39:10 AM : was successfully deleted
+4/3/2018 11:39:11 AM :Successfully connected to Elementum SFTP Server
+4/3/2018 11:39:11 AM :Upload Path is: 
+4/3/2018 11:39:11 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget
+4/3/2018 11:39:11 AM :Destination Path is: 
+4/3/2018 11:39:11 AM :/manufacture/starbucks/uploads/txt/mytest.txt
+4/3/2018 11:39:11 AM :Deleted duplicate file on SFTP server
+4/3/2018 11:39:11 AM :Streaming file
+4/3/2018 11:39:11 AM :C:\Users\admin-tt\Documents\elementum\CopyTarget\mytest.txt
+4/3/2018 11:39:11 AM :successfully uploaded file to SFTP server
+4/3/2018 11:39:11 AM :No such file

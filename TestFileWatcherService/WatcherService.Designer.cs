@@ -34,6 +34,7 @@
             // WatcherStep1Folder
             // 
             this.WatcherStep1Folder.EnableRaisingEvents = true;
+            this.WatcherStep1Folder.Changed += new System.IO.FileSystemEventHandler(this.Watcher_Changed);
             this.WatcherStep1Folder.Created += new System.IO.FileSystemEventHandler(this.Watcher_Created);
             this.WatcherStep1Folder.Deleted += new System.IO.FileSystemEventHandler(this.Watcher_Changed);
             // 

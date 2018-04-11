@@ -14,8 +14,9 @@ namespace TestFileWatcherService
 {
     public partial class WatcherService : ServiceBase
     {
+        public static string sSource = "FileWatcherSvc";
         string folderPathToRead = ConfigurationManager.AppSettings["folderPathToRead"];
-        
+
         //Declare global FileSystemWatcher
         FileSystemWatcher watcher;
         //Constructor of WatchService class
@@ -37,36 +38,39 @@ namespace TestFileWatcherService
 
         private void Watcher_Deleted(object sender, FileSystemEventArgs e)
         {
-            Library.WriteErrorLog(e.FullPath);
-            Library.WriteErrorLog(" was successfully deleted");
+            Library.WriteErrorLog(e.FullPath +" "+ "was successfully deleted");
+           
             try
             {
-                Library.UploadFileSFTP();
+                Library.UploadFileSFTP(e.FullPath);
             }
            catch(Exception ex)
             {
                 Library.WriteErrorLog(ex);
+                Library.writeEventLogError(sSource, ex.Message);
             }
 
         }
 
         private void Watcher_Changed(object sender, FileSystemEventArgs e)
         {
-            Library.WriteErrorLog("File was successfully changed");
+            Library.WriteErrorLog(e.FullPath + " " + "was successfully changed");
         }
 
         private void Watcher_Created(object sender, FileSystemEventArgs e)
         {
-            Library.WriteErrorLog(e.FullPath);
-            Library.WriteErrorLog("was successfully created");
+            Library.WriteErrorLog(e.FullPath+" "+ "was successfully created");
+            
             try
             {
-                Library.UTF8Conversion();
-                Library.cleanDirectory();
+                Library.UTF8Conversion(e.FullPath);
+                Library.cleanDirectory(e.FullPath);
             }
             catch(Exception ex)
             {
                 Library.WriteErrorLog(ex);
+                Library.writeEventLogError(sSource, ex.Message);
+
             }
         }
 
